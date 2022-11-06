@@ -1,0 +1,32 @@
+---
+title: "backward design"
+author: "Gray Team (Emmanuel Ruhamyankaka,Nick Carroll, Jiaxin Ying, Song Young Oh)"
+date: "2022-11-06"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Backwards Design Template
+October 29, 2020
+## 1 Topic:
+
+This analysis aims to assess the effectiveness of policy interventions meant to reduce the over-prescription of opioids in three separate states, including Florida, Texas, and Washington. We will perform a pre-post and a difference-in-difference analysis to evaluate the impact of the policy changes on opioid prescriptions and overdose death. Our interest in monitoring the mortality and opioid prescriptions stems from the fact that individuals already addicted to opioids might seek additional opioids like heroin, fentanyl, or illicitly obtained prescription medications. This prospect would be quite concerning because overdosing is much more possible with illegal drugs than with (monitored) prescribed medications because drug users cannot gauge the potency of these illicit substances.
+
+## 2 Project Question
+The goal of this project is to answer the following question: what is the effect of opioid
+drug prescription regulations on
+1. The volume of opioids prescribed, and
+2. Drug overdose deaths.
+
+## 3 Project Hypothesis
+Our hypothesis is that opioid control policies result in ‘less’ volume of opioids prescribed and ‘less’ number of drug overdose deaths because they are intended to cut down on prescription/usage of drugs.
+
+## 4 Model Results
+
+The pre- and post-analysis will examine how each state has changed over time. If the policy had no impact, our plot would depict overdose deaths and opioid shipments increasing over time; however, if the policy had an impact, our plot would depict 'less' opioid prescription volume and 'less' drug overdose deaths decreasing over time because the policies were intended to reduce drug prescription/use.
+
+## 5 Final Variables Required
+
