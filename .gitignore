@@ -2,3 +2,5 @@
 boxToken.secret.txt
 40_Draft_Reports/IDS 720 - Backwards Design - Grey Team.pdf
 40_Draft_Reports/Backwards Design.html
+.DS_Store
+.vscode/settings.json
