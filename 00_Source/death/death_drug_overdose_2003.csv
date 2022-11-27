@@ -1,0 +1,522 @@
+County,Year,Drug/Alcohol Induced Cause,Drug/Alcohol Induced Cause Code,Deaths
+"Baldwin County, AL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Jefferson County, AL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,37.0
+"Mobile County, AL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,26.0
+"Anchorage Borough, AK",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,31.0
+"Matanuska-Susitna Borough, AK",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Cochise County, AZ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Coconino County, AZ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Maricopa County, AZ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,273.0
+"Maricopa County, AZ",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,63.0
+"Maricopa County, AZ",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,32.0
+"Mohave County, AZ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Pima County, AZ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,145.0
+"Pima County, AZ",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,14.0
+"Pinal County, AZ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,18.0
+"Yavapai County, AZ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"Pulaski County, AR",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,18.0
+"Alameda County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,96.0
+"Alameda County, CA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,11.0
+"Butte County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,40.0
+"Contra Costa County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,53.0
+"Contra Costa County, CA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,11.0
+"El Dorado County, CA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,10.0
+"Fresno County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,66.0
+"Humboldt County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,38.0
+"Kern County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,79.0
+"Kern County, CA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,18.0
+"Los Angeles County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,616.0
+"Los Angeles County, CA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,93.0
+"Los Angeles County, CA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,21.0
+"Madera County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Marin County, CA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,19.0
+"Mendocino County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"Merced County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,18.0
+"Monterey County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,29.0
+"Napa County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Orange County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,152.0
+"Orange County, CA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,50.0
+"Orange County, CA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,16.0
+"Placer County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,28.0
+"Riverside County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,128.0
+"Riverside County, CA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,22.0
+"Sacramento County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,111.0
+"Sacramento County, CA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,37.0
+"San Bernardino County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,40.0
+"San Bernardino County, CA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,24.0
+"San Diego County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,222.0
+"San Diego County, CA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,65.0
+"San Francisco County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,91.0
+"San Francisco County, CA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,23.0
+"San Joaquin County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,45.0
+"San Luis Obispo County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"San Mateo County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,41.0
+"San Mateo County, CA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"Santa Barbara County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,32.0
+"Santa Clara County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,55.0
+"Santa Clara County, CA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,23.0
+"Santa Cruz County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Santa Cruz County, CA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,11.0
+"Shasta County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,31.0
+"Solano County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,29.0
+"Sonoma County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,42.0
+"Stanislaus County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,67.0
+"Stanislaus County, CA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,15.0
+"Tulare County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,31.0
+"Ventura County, CA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,73.0
+"Ventura County, CA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,14.0
+"Adams County, CO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,32.0
+"Adams County, CO",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"Arapahoe County, CO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,33.0
+"Arapahoe County, CO",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,12.0
+"Boulder County, CO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,20.0
+"Denver County, CO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,97.0
+"Denver County, CO",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"El Paso County, CO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,33.0
+"El Paso County, CO",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,20.0
+"Jefferson County, CO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,23.0
+"Jefferson County, CO",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,17.0
+"Jefferson County, CO",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,10.0
+"Larimer County, CO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Larimer County, CO",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"Pueblo County, CO",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,10.0
+"Weld County, CO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Fairfield County, CT",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,53.0
+"Fairfield County, CT",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,11.0
+"Hartford County, CT",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,65.0
+"Hartford County, CT",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,14.0
+"Litchfield County, CT",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"New Haven County, CT",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,70.0
+"New Haven County, CT",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"New London County, CT",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,18.0
+"New London County, CT",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,11.0
+"Windham County, CT",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Kent County, DE",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"New Castle County, DE",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,41.0
+"New Castle County, DE",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,13.0
+"District of Columbia, DC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,90.0
+"Alachua County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Bay County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,21.0
+"Brevard County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,83.0
+"Brevard County, FL",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,14.0
+"Broward County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,170.0
+"Broward County, FL",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,60.0
+"Citrus County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,16.0
+"Clay County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,16.0
+"Collier County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,29.0
+"Duval County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,107.0
+"Duval County, FL",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,20.0
+"Escambia County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,27.0
+"Hernando County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"Highlands County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Hillsborough County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,114.0
+"Hillsborough County, FL",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,12.0
+"Indian River County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Lake County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,17.0
+"Lee County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,61.0
+"Lee County, FL",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,16.0
+"Leon County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Manatee County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,42.0
+"Marion County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,33.0
+"Marion County, FL",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"Martin County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"Miami-Dade County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,82.0
+"Miami-Dade County, FL",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,12.0
+"Monroe County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,17.0
+"Okaloosa County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,20.0
+"Orange County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,83.0
+"Osceola County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Palm Beach County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,175.0
+"Palm Beach County, FL",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,24.0
+"Pasco County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,52.0
+"Pasco County, FL",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"Pinellas County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,112.0
+"Pinellas County, FL",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,23.0
+"Polk County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,42.0
+"St. Lucie County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,21.0
+"Santa Rosa County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,21.0
+"Sarasota County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,50.0
+"Sarasota County, FL",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,12.0
+"Seminole County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,33.0
+"Volusia County, FL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,48.0
+"Bibb County, GA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Cherokee County, GA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Clayton County, GA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,18.0
+"Cobb County, GA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,34.0
+"DeKalb County, GA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,25.0
+"Fulton County, GA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,62.0
+"Gwinnett County, GA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,21.0
+"Muscogee County, GA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Richmond County, GA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Rockdale County, GA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Hawaii County, HI",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Honolulu County, HI",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,47.0
+"Honolulu County, HI",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,15.0
+"Ada County, ID",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,17.0
+"Cook County, IL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,410.0
+"Cook County, IL",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,33.0
+"DuPage County, IL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,48.0
+"Lake County, IL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,27.0
+"Lake County, IL",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"McHenry County, IL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"McLean County, IL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Madison County, IL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Will County, IL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,26.0
+"Winnebago County, IL",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,25.0
+"Clark County, IN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,20.0
+"Delaware County, IN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,18.0
+"Lake County, IN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Madison County, IN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,21.0
+"Marion County, IN",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,53.0
+"Vanderburgh County, IN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"Polk County, IA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Johnson County, KS",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,17.0
+"Johnson County, KS",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,11.0
+"Sedgwick County, KS",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,46.0
+"Bell County, KY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"Boone County, KY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Campbell County, KY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Fayette County, KY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,30.0
+"Floyd County, KY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Harlan County, KY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Jefferson County, KY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,72.0
+"Jefferson County, KY",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,16.0
+"Kenton County, KY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,21.0
+"Kenton County, KY",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,10.0
+"Madison County, KY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Perry County, KY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Pike County, KY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,19.0
+"Warren County, KY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Whitley County, KY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Acadia Parish, LA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Ascension Parish, LA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Bossier Parish, LA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,16.0
+"Caddo Parish, LA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,22.0
+"Calcasieu Parish, LA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,25.0
+"East Baton Rouge Parish, LA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,22.0
+"Jefferson Parish, LA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,86.0
+"Lafayette Parish, LA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,24.0
+"Livingston Parish, LA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,23.0
+"Orleans Parish, LA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,16.0
+"St. Bernard Parish, LA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,29.0
+"St. Landry Parish, LA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"St. Tammany Parish, LA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,40.0
+"Terrebonne Parish, LA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,19.0
+"Cumberland County, ME",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,26.0
+"Penobscot County, ME",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"York County, ME",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,16.0
+"Allegany County, MD",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,15.0
+"Anne Arundel County, MD",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,41.0
+"Baltimore County, MD",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"Baltimore County, MD",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,137.0
+"Carroll County, MD",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,23.0
+"Cecil County, MD",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,13.0
+"Frederick County, MD",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,10.0
+"Harford County, MD",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,37.0
+"Howard County, MD",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,17.0
+"Montgomery County, MD",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,28.0
+"Prince George's County, MD",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Prince George's County, MD",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,38.0
+"Baltimore city, MD",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,253.0
+"Barnstable County, MA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,21.0
+"Bristol County, MA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,99.0
+"Essex County, MA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Essex County, MA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,89.0
+"Hampden County, MA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,50.0
+"Hampshire County, MA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,10.0
+"Middlesex County, MA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Middlesex County, MA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,14.0
+"Middlesex County, MA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,121.0
+"Norfolk County, MA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,41.0
+"Plymouth County, MA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,48.0
+"Suffolk County, MA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Suffolk County, MA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,117.0
+"Worcester County, MA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,14.0
+"Worcester County, MA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,66.0
+"Calhoun County, MI",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"Genesee County, MI",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Genesee County, MI",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,22.0
+"Ingham County, MI",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Kalamazoo County, MI",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Kent County, MI",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,31.0
+"Macomb County, MI",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Macomb County, MI",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,18.0
+"Macomb County, MI",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,52.0
+"Muskegon County, MI",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Oakland County, MI",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,17.0
+"Oakland County, MI",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,56.0
+"Saginaw County, MI",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,16.0
+"St. Clair County, MI",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,11.0
+"Wayne County, MI",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,132.0
+"Wayne County, MI",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,25.0
+"Wayne County, MI",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,26.0
+"Anoka County, MN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Hennepin County, MN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,50.0
+"Hennepin County, MN",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,13.0
+"Ramsey County, MN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,25.0
+"St. Louis County, MN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"Hancock County, MS",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Harrison County, MS",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,29.0
+"Jackson County, MS",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,23.0
+"Boone County, MO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Clay County, MO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,20.0
+"Greene County, MO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,40.0
+"Jackson County, MO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,48.0
+"Jefferson County, MO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"St. Charles County, MO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"St. Francois County, MO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"St. Louis County, MO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,45.0
+"St. Louis County, MO",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,25.0
+"St. Louis city, MO",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,49.0
+"Missoula County, MT",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Yellowstone County, MT",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,11.0
+"Clark County, NV",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,206.0
+"Clark County, NV",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,41.0
+"Washoe County, NV",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,36.0
+"Washoe County, NV",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,13.0
+"Washoe County, NV",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,10.0
+"Hillsborough County, NH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,23.0
+"Merrimack County, NH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Rockingham County, NH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,19.0
+"Strafford County, NH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Atlantic County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,34.0
+"Bergen County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,44.0
+"Bergen County, NJ",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,11.0
+"Burlington County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,26.0
+"Camden County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,49.0
+"Cumberland County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Essex County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,86.0
+"Gloucester County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,25.0
+"Hudson County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,47.0
+"Mercer County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"Middlesex County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,45.0
+"Middlesex County, NJ",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"Monmouth County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,42.0
+"Monmouth County, NJ",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"Morris County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,30.0
+"Ocean County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,34.0
+"Passaic County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,28.0
+"Somerset County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,18.0
+"Sussex County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Union County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,27.0
+"Warren County, NJ",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Bernalillo County, NM",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,130.0
+"Bernalillo County, NM",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,14.0
+"Chaves County, NM",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,18.0
+"Dona Ana County, NM",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,19.0
+"Rio Arriba County, NM",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Sandoval County, NM",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"San Juan County, NM",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Santa Fe County, NM",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,24.0
+"Valencia County, NM",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,17.0
+"Bronx County, NY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,131.0
+"Kings County, NY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,205.0
+"Kings County, NY",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,11.0
+"Nassau County, NY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,21.0
+"New York County, NY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,170.0
+"New York County, NY",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,27.0
+"Onondaga County, NY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Queens County, NY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,131.0
+"Queens County, NY",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,11.0
+"Richmond County, NY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,26.0
+"Suffolk County, NY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,22.0
+"Westchester County, NY",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"Brunswick County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Buncombe County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,22.0
+"Burke County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Catawba County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,17.0
+"Cleveland County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Cumberland County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Davidson County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,18.0
+"Durham County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Forsyth County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,20.0
+"Gaston County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,29.0
+"Guilford County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,19.0
+"Guilford County, NC",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"Henderson County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Iredell County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Mecklenburg County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,38.0
+"New Hanover County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,20.0
+"Pitt County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Rockingham County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Rowan County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Rutherford County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Wake County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,31.0
+"Wake County, NC",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"Wilkes County, NC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"Butler County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,22.0
+"Clark County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Clermont County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Cuyahoga County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,83.0
+"Cuyahoga County, OH",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,16.0
+"Franklin County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,60.0
+"Franklin County, OH",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,14.0
+"Greene County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"Hamilton County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,60.0
+"Hamilton County, OH",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,13.0
+"Jefferson County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Licking County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Lorain County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Lucas County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,19.0
+"Mahoning County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Montgomery County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,52.0
+"Stark County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Summit County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,48.0
+"Trumbull County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,20.0
+"Warren County, OH",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Cleveland County, OK",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"Oklahoma County, OK",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,61.0
+"Oklahoma County, OK",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,14.0
+"Tulsa County, OK",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,88.0
+"Tulsa County, OK",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,12.0
+"Clackamas County, OR",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,18.0
+"Douglas County, OR",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Jackson County, OR",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,17.0
+"Lane County, OR",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,18.0
+"Marion County, OR",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Multnomah County, OR",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,70.0
+"Multnomah County, OR",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,18.0
+"Multnomah County, OR",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,11.0
+"Washington County, OR",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,17.0
+"Allegheny County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,176.0
+"Allegheny County, PA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,11.0
+"Allegheny County, PA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,10.0
+"Beaver County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,20.0
+"Bedford County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Berks County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,27.0
+"Blair County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,21.0
+"Bucks County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,57.0
+"Bucks County, PA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,12.0
+"Butler County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Cambria County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,20.0
+"Chester County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,16.0
+"Dauphin County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Delaware County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,47.0
+"Delaware County, PA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,13.0
+"Delaware County, PA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,15.0
+"Erie County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,16.0
+"Fayette County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,19.0
+"Lackawanna County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,28.0
+"Lancaster County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,25.0
+"Lawrence County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Lehigh County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,33.0
+"Luzerne County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,46.0
+"Mercer County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Monroe County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,17.0
+"Montgomery County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,56.0
+"Montgomery County, PA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,11.0
+"Northampton County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Philadelphia County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,238.0
+"Philadelphia County, PA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,21.0
+"Philadelphia County, PA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,19.0
+"Schuylkill County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Somerset County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Washington County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,22.0
+"Westmoreland County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,32.0
+"York County, PA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,25.0
+"Kent County, RI",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,22.0
+"Providence County, RI",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,81.0
+"Aiken County, SC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Anderson County, SC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Charleston County, SC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,16.0
+"Greenville County, SC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,32.0
+"Horry County, SC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,36.0
+"Lexington County, SC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Richland County, SC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,26.0
+"Spartanburg County, SC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,21.0
+"York County, SC",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Anderson County, TN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Blount County, TN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Davidson County, TN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,62.0
+"Davidson County, TN",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"Hamilton County, TN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"Hamilton County, TN",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,13.0
+"Knox County, TN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,54.0
+"Knox County, TN",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,20.0
+"Rutherford County, TN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Shelby County, TN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,37.0
+"Sumner County, TN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Wilson County, TN",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Bexar County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,84.0
+"Bexar County, TX",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,25.0
+"Brazoria County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Collin County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,26.0
+"Comal County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Dallas County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,124.0
+"Dallas County, TX",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,36.0
+"Dallas County, TX",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,21.0
+"Denton County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,18.0
+"Ector County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"El Paso County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,52.0
+"Fort Bend County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Galveston County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,27.0
+"Harris County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,244.0
+"Harris County, TX",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,69.0
+"Jefferson County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,16.0
+"Lubbock County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Montgomery County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,45.0
+"Montgomery County, TX",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,12.0
+"Nueces County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,37.0
+"Orange County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,17.0
+"Parker County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Tarrant County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,112.0
+"Tarrant County, TX",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,17.0
+"Tarrant County, TX",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,11.0
+"Taylor County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,15.0
+"Tom Green County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Travis County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,66.0
+"Travis County, TX",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,13.0
+"Webb County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Wichita County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,16.0
+"Williamson County, TX",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Davis County, UT",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,21.0
+"Salt Lake County, UT",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,26.0
+"Salt Lake County, UT",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,26.0
+"Salt Lake County, UT",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,112.0
+"Utah County, UT",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Utah County, UT",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,42.0
+"Washington County, UT",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,11.0
+"Weber County, UT",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,21.0
+"Chesterfield County, VA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Fairfax County, VA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,17.0
+"Fairfax County, VA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,11.0
+"Henrico County, VA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,22.0
+"Prince William County, VA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Russell County, VA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Tazewell County, VA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Chesapeake city, VA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Newport News city, VA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Norfolk city, VA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Portsmouth city, VA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Richmond city, VA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,30.0
+"Roanoke city, VA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Virginia Beach city, VA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,19.0
+"Benton County, WA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Clark County, WA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,30.0
+"Clark County, WA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"King County, WA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,132.0
+"King County, WA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,30.0
+"King County, WA",2003.0,Drug poisonings (overdose) Undetermined (Y10-Y14),D4,28.0
+"Kitsap County, WA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,23.0
+"Pierce County, WA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,77.0
+"Pierce County, WA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,10.0
+"Skagit County, WA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,12.0
+"Snohomish County, WA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,65.0
+"Snohomish County, WA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,11.0
+"Spokane County, WA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,58.0
+"Spokane County, WA",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,16.0
+"Thurston County, WA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,17.0
+"Whatcom County, WA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Yakima County, WA",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Berkeley County, WV",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,17.0
+"Cabell County, WV",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,19.0
+"Kanawha County, WV",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,27.0
+"Mercer County, WV",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Mingo County, WV",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,10.0
+"Raleigh County, WV",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,14.0
+"Wyoming County, WV",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,11.0
+"Dane County, WI",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,24.0
+"Milwaukee County, WI",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,120.0
+"Milwaukee County, WI",2003.0,Drug poisonings (overdose) Suicide (X60-X64),D2,20.0
+"Racine County, WI",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,13.0
+"Waukesha County, WI",2003.0,Drug poisonings (overdose) Unintentional (X40-X44),D1,17.0
