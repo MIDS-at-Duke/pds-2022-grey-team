@@ -1,4 +1,4 @@
-County,Year,State,Deaths,Population,"Death_Rate (per 100,000)"
+County,Year,State,Deaths,Population,Death_Rate_per_100000
 Adams County,2009,PA,12.0,101252,11.851617745822304
 Adams County,2010,PA,10.0,101407,9.861252181802046
 Adams County,2012,OH,10.0,28288.0,35.35067873303167
