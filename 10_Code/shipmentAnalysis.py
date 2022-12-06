@@ -4,6 +4,7 @@ import pandas as pd
 import altair as alt
 import numpy as np
 
+
 # Import shipment data and group to a manageable size
 def mergeStates(states):
     groupedShipments = pd.DataFrame()
@@ -32,9 +33,9 @@ def mergeStates(states):
 
 # Import population data
 def censusData():
-    # Import census data 2000-2010
+    # Import census data 2000-2009
     census00s = pd.read_csv(
-        "C:\\Users\\nicho\\Documents\\GitHub\\pds-2022-grey-team\\00_Source\\Population\\population2000-2010.csv",
+        "..\\00_Source\\Population\\population2000-2010.csv",
         usecols=[
             "STNAME",
             "CTYNAME",
@@ -54,7 +55,7 @@ def censusData():
 
     # Import census data 2010-2020
     census10s = pd.read_csv(
-        "C:\\Users\\nicho\\Documents\\GitHub\\pds-2022-grey-team\\00_Source\\Population\\population2010-2020.csv",
+        "..\\00_Source\\Population\\population2010-2020.csv",
         usecols=[
             "STNAME",
             "CTYNAME",
@@ -78,7 +79,7 @@ def censusData():
 
     # Load state abbrevaitions because this is how state is stored in shipment data
     abbreviations = pd.read_html(
-        "https://simple.wikipedia.org/wiki/List_of_U.S._states_by_traditional_abbreviation"
+        "..\\20_Intermediate_Files\\Listofstatesbyabbreviation.html"  # "https://simple.wikipedia.org/wiki/List_of_U.S._states_by_traditional_abbreviation"
     )[0]
 
     # Merge state abbreviations with census data
@@ -171,7 +172,7 @@ def updateName(x):
 # Calculate per capita opioid shipments
 def perCapita(census, groupedShipments):
     mergedDF = pd.DataFrame()
-    for year in range(2000, 2021):
+    for year in range(2003, 2016):
         yearDF = groupedShipments.merge(
             census,
             how="left",
@@ -317,12 +318,13 @@ if __name__ == "__main__":
         "VA",
         "MA",
     ]
-    groupedShipments = mergeStates(states)
+    # groupedShipments = mergeStates(states)
     census = censusData()
-    mergedDF = perCapita(census, groupedShipments)
-    prePostFL, diffDiffFL = plotRegression("FL", ["MI", "NC", "OH"], 2010)
-    prePostWA, diffDiffWA = plotRegression("WA", ["AZ", "MO", "GA"], 2012)
-    prePostFL.display()
-    diffDiffFL.display()
-    prePostWA.display()
-    diffDiffWA.display()
+    print(census.head())
+    # mergedDF = perCapita(census, groupedShipments)
+    # prePostFL, diffDiffFL = plotRegression("FL", ["MI", "NC", "OH"], 2010)
+    # prePostWA, diffDiffWA = plotRegression("WA", ["AZ", "MO", "GA"], 2012)
+    # prePostFL.display()
+    # diffDiffFL.display()
+    # prePostWA.display()
+    # diffDiffWA.display()
