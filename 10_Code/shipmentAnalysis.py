@@ -265,7 +265,7 @@ def perCapita(census, groupedShipments):
     # Ensure names match in the datasets and all counties are accounted for
     census = countyNames(census, groupedShipments)
     countyCheck(census, groupedShipments)
-    # Merge the datasets
+    # Merge the datasets for the years 2006-2014 and the counties in question
     mergedDF = groupedShipments.merge(
         census.loc[
             (
