@@ -150,8 +150,9 @@ def censusData():
         value_name="Population",
     )
 
-    # Change population data to integer
+    # Change population data and year to integer
     census["Population"] = census["Population"].astype(int)
+    census["Year"] = census["Year"].astype(int)
 
     return census
 
@@ -169,44 +170,147 @@ def updateName(x):
         return x.upper()
 
 
+# Ensure county names are spelled the same across different datasets
+def countyNames(census, groupedShipments):
+    for eachState in groupedShipments.loc[:, "BUYER_STATE"].unique():
+        censusCounties = set(
+            census.loc[
+                census.loc[:, "Other abbreviations"] == eachState, "County"
+            ].unique()
+        )
+        shipmentCounties = set(
+            groupedShipments.loc[
+                groupedShipments.loc[:, "BUYER_STATE"] == eachState, "BUYER_COUNTY"
+            ].unique()
+        )
+        missingCounties = sorted(list(censusCounties.difference(shipmentCounties)))
+        misspelledCounties = sorted(list(shipmentCounties.difference(censusCounties)))
+        renameDict = {}
+        for eachCounty in misspelledCounties:
+            maxCount = 0
+            choice = None
+            for county in missingCounties:
+                if len(set(eachCounty).intersection(set(county))) > maxCount:
+                    maxCount = len(set(eachCounty).intersection(set(county)))
+                    choice = county
+                elif len(set(eachCounty).intersection(set(county))) == maxCount:
+                    if len(set(county).difference(set(eachCounty))) < len(
+                        set(choice).difference(set(eachCounty))
+                    ):
+                        choice = county
+            renameDict[choice] = eachCounty
+        census.loc[
+            census.loc[:, "Other abbreviations"] == eachState, "County"
+        ] = census.loc[
+            census.loc[:, "Other abbreviations"] == eachState, "County"
+        ].replace(
+            renameDict
+        )
+    return census
+
+
+# Confirm that all counties are accounted for in manipulated census data
+def countyCheck(census, groupedShipments):
+    counties = pd.read_html(
+        "https://en.wikipedia.org/wiki/County_(United_States)#:~:text=The%20average%20number%20of%20counties,the%20254%20counties%20of%20Texas."
+    )[2]
+
+    # drop the multiindex
+    counties.columns = counties.columns.droplevel(0)
+
+    # drop the footnotes
+    counties.loc[:, "State, federal district  or territory"] = counties.loc[
+        :, "State, federal district  or territory"
+    ].apply(lambda x: x.split("[")[0])
+
+    # Find the county counts from Wikipedia
+    wikiCounts = counties.loc[
+        counties.loc[:, "State, federal district  or territory"].isin(
+            census.loc[
+                census.loc[:, "Other abbreviations"].isin(
+                    groupedShipments.loc[:, "BUYER_STATE"].unique()
+                ),
+                "State",
+            ]
+        ),
+        ["State, federal district  or territory", "Total"],
+    ]
+
+    # Find the county counts in the census data
+    censusCounts = (
+        census.loc[
+            census.loc[:, "Other abbreviations"].isin(
+                groupedShipments.loc[:, "BUYER_STATE"].unique()
+            ),
+            ["State", "County"],
+        ]
+        .groupby("State")
+        .nunique()
+    )
+
+    # Merge and Assert
+    countComparisons = wikiCounts.merge(
+        censusCounts,
+        how="left",
+        left_on="State, federal district  or territory",
+        right_on="State",
+    )
+    assert countComparisons.apply(
+        lambda i: int(i["Total"]) == i["County"], axis=1
+    ).all()
+
+
 # Calculate per capita opioid shipments
 def perCapita(census, groupedShipments):
-    mergedDF = pd.DataFrame()
-    for year in range(2003, 2016):
-        yearDF = groupedShipments.merge(
-            census,
-            how="left",
-            left_on=["BUYER_STATE", "BUYER_COUNTY", "Year"],
-            right_on=["Other abbreviations", "County", "Year"],
-        )
-        mergedDF = pd.concat([mergedDF, yearDF], axis=0)
+    # Ensure names match in the datasets and all counties are accounted for
+    census = countyNames(census, groupedShipments)
+    countyCheck(census, groupedShipments)
+    # Merge the datasets
+    mergedDF = groupedShipments.merge(
+        census.loc[
+            (
+                census.loc[:, "Other abbreviations"].isin(
+                    groupedShipments.loc[:, "BUYER_STATE"].unique()
+                )
+            )
+            & (census.loc[:, "Year"].isin(range(2006, 2015))),
+            :,
+        ],
+        how="right",
+        left_on=["BUYER_STATE", "BUYER_COUNTY", "Year"],
+        right_on=["Other abbreviations", "County", "Year"],
+    )
 
+    # Calculate per capita opioid shipments and fill missing values with 0
     mergedDF["Opioids_per_Capita"] = (
         mergedDF["Converted Units"] / mergedDF["Population"]
     )
+    mergedDF["Opioids_per_Capita"] = mergedDF["Opioids_per_Capita"].fillna(0)
 
     return mergedDF
 
 
 # Split data by test states and control states, both pre and post policy changes
 def splitData(testState, controlStates, policyYear):
-    test = mergedDF.loc[mergedDF.loc[:, "BUYER_STATE"] == testState, :]
-    control = mergedDF.loc[mergedDF.loc[:, "BUYER_STATE"].isin(controlStates), :]
+    test = mergedDF.loc[mergedDF.loc[:, "Other abbreviations"] == testState, :]
+    control = mergedDF.loc[
+        mergedDF.loc[:, "Other abbreviations"].isin(controlStates), :
+    ]
     pre_test = test.loc[test.loc[:, "Year"] < policyYear, :]
     post_test = test.loc[test.loc[:, "Year"] >= policyYear, :]
     pre_control = control.loc[control.loc[:, "Year"] < policyYear, :]
     post_control = control.loc[control.loc[:, "Year"] >= policyYear, :]
-    pre_test_mean = pre_test.groupby(["BUYER_STATE", "Year"], as_index=False).mean(
-        numeric_only=True
-    )
-    post_test_mean = post_test.groupby(["BUYER_STATE", "Year"], as_index=False).mean(
-        numeric_only=True
-    )
+    pre_test_mean = pre_test.groupby(
+        ["Other abbreviations", "Year"], as_index=False
+    ).mean(numeric_only=True)
+    post_test_mean = post_test.groupby(
+        ["Other abbreviations", "Year"], as_index=False
+    ).mean(numeric_only=True)
     pre_control_mean = pre_control.groupby(
-        ["BUYER_STATE", "Year"], as_index=False
+        ["Other abbreviations", "Year"], as_index=False
     ).mean(numeric_only=True)
     post_control_mean = post_control.groupby(
-        ["BUYER_STATE", "Year"], as_index=False
+        ["Other abbreviations", "Year"], as_index=False
     ).mean(numeric_only=True)
     return pre_test_mean, post_test_mean, pre_control_mean, post_control_mean
 
@@ -230,7 +334,7 @@ def get_reg_fit(data, yvar, xvar, alpha=0.05):
     predictions[["ci_low", "ci_high"]] = model_predict.conf_int(alpha=alpha)
 
     # Build chart
-    stateList = data.loc[:, "BUYER_STATE"].unique().tolist()
+    stateList = data.loc[:, "Other abbreviations"].unique().tolist()
     stateListString = stateList[0]
     treatment = 1
     if len(stateList) > 1:
@@ -243,7 +347,12 @@ def get_reg_fit(data, yvar, xvar, alpha=0.05):
         .mark_line(opacity=treatment)
         .encode(
             x=xvar,
-            y=alt.Y(yvar, axis=alt.Axis(title="Opioids per Capita")),
+            color=alt.Color(
+                "State",
+                sort=alt.EncodingSortField(
+                    field="State", op="count", order="descending"
+                ),
+            ),
             color="State",
         )
         .properties(title="Average Opioids per Capita Shipped by States")
@@ -254,6 +363,12 @@ def get_reg_fit(data, yvar, xvar, alpha=0.05):
         .encode(
             x=xvar,
             y=alt.Y("ci_low", title="Opioids per Capita"),
+            color=alt.Color(
+                "State",
+                sort=alt.EncodingSortField(
+                    field="State", op="count", order="descending"
+                ),
+            ),
             y2="ci_high",
         )
     )
@@ -318,13 +433,11 @@ if __name__ == "__main__":
         "VA",
         "MA",
     ]
-    # groupedShipments = mergeStates(states)
-    census = censusData()
-    print(census.head())
-    # mergedDF = perCapita(census, groupedShipments)
-    # prePostFL, diffDiffFL = plotRegression("FL", ["MI", "NC", "OH"], 2010)
-    # prePostWA, diffDiffWA = plotRegression("WA", ["AZ", "MO", "GA"], 2012)
-    # prePostFL.display()
-    # diffDiffFL.display()
-    # prePostWA.display()
-    # diffDiffWA.display()
+    groupedShipments = mergeStates(states)
+    mergedDF = perCapita(census, groupedShipments)
+    prePostFL, diffDiffFL = plotRegression("FL", ["MI", "NC", "OH"], 2010)
+    prePostWA, diffDiffWA = plotRegression("WA", ["AZ", "MO", "GA"], 2012)
+    prePostFL.display()
+    diffDiffFL.display()
+    prePostWA.display()
+    diffDiffWA.display()
