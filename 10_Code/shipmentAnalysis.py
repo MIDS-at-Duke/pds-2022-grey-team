@@ -64,8 +64,8 @@ def censusData():
             "POPESTIMATE2012",
             "POPESTIMATE2013",
             "POPESTIMATE2014",
-            # "POPESTIMATE2015", # Excluded from this analysis
-            # "POPESTIMATE2016",
+            "POPESTIMATE2015",
+            # "POPESTIMATE2016", # Excluded from this analysis
             # "POPESTIMATE2017",
             # "POPESTIMATE2018",
             # "POPESTIMATE2019",
