@@ -27,7 +27,7 @@ def mergeStates(states):
             ],
             ignore_index=True,
         )
-        shipments = 0  # Clear memory
+        shipments = 0  # Clear memory to avoid overloading RAM
     return groupedShipments
 
 
@@ -39,9 +39,9 @@ def censusData():
         usecols=[
             "STNAME",
             "CTYNAME",
-            "POPESTIMATE2000",
-            "POPESTIMATE2001",
-            "POPESTIMATE2002",
+            # "POPESTIMATE2000", # Excluded from this analysis
+            # "POPESTIMATE2001",
+            # "POPESTIMATE2002",
             "POPESTIMATE2003",
             "POPESTIMATE2004",
             "POPESTIMATE2005",
@@ -64,12 +64,12 @@ def censusData():
             "POPESTIMATE2012",
             "POPESTIMATE2013",
             "POPESTIMATE2014",
-            "POPESTIMATE2015",
-            "POPESTIMATE2016",
-            "POPESTIMATE2017",
-            "POPESTIMATE2018",
-            "POPESTIMATE2019",
-            "POPESTIMATE2020",
+            # "POPESTIMATE2015", # Excluded from this analysis
+            # "POPESTIMATE2016",
+            # "POPESTIMATE2017",
+            # "POPESTIMATE2018",
+            # "POPESTIMATE2019",
+            # "POPESTIMATE2020",
         ],
         encoding_errors="replace",
     )
@@ -96,9 +96,9 @@ def censusData():
     # Rename columns by year
     census = census.rename(
         columns={
-            "POPESTIMATE2000": 2000,
-            "POPESTIMATE2001": 2001,
-            "POPESTIMATE2002": 2002,
+            # "POPESTIMATE2000": 2000, # Excluded from this
+            # "POPESTIMATE2001": 2001,
+            # "POPESTIMATE2002": 2002,
             "POPESTIMATE2003": 2003,
             "POPESTIMATE2004": 2004,
             "POPESTIMATE2005": 2005,
@@ -112,11 +112,11 @@ def censusData():
             "POPESTIMATE2013": 2013,
             "POPESTIMATE2014": 2014,
             "POPESTIMATE2015": 2015,
-            "POPESTIMATE2016": 2016,
-            "POPESTIMATE2017": 2017,
-            "POPESTIMATE2018": 2018,
-            "POPESTIMATE2019": 2019,
-            "POPESTIMATE2020": 2020,
+            # "POPESTIMATE2016": 2016,
+            # "POPESTIMATE2017": 2017,
+            # "POPESTIMATE2018": 2018,
+            # "POPESTIMATE2019": 2019,
+            # "POPESTIMATE2020": 2020,
         }
     )
 
@@ -124,9 +124,9 @@ def censusData():
     census = census.melt(
         id_vars=["STNAME", "CTYNAME", "State", "Other abbreviations", "County"],
         value_vars=[
-            2000,
-            2001,
-            2002,
+            # 2000,
+            # 2001,
+            # 2002,
             2003,
             2004,
             2005,
@@ -140,11 +140,11 @@ def censusData():
             2013,
             2014,
             2015,
-            2016,
-            2017,
-            2018,
-            2019,
-            2020,
+            # 2016,
+            # 2017,
+            # 2018,
+            # 2019,
+            # 2020,
         ],
         var_name="Year",
         value_name="Population",
@@ -355,7 +355,9 @@ def get_reg_fit(data, yvar, xvar, alpha=0.05):
             ),
             color="State",
         )
-        .properties(title="Average Opioids per Capita Shipped by States")
+        .properties(
+            title="Average Opioids per Capita Shipped to States Before and After Policy Implementation"
+        )
     )
     ci = (
         alt.Chart(predictions)
@@ -422,21 +424,25 @@ if __name__ == "__main__":
         "FL",
         "GA",
         "OH",
-        "PA",
-        "MD",
-        "WI",
+        # "PA", # Excluded for this analysis
+        # "MD", # Excluded for this analysis
+        # "WI", # Excluded for this analysis
         "AZ",
         "WA",
         "MI",
         "NC",
         "MO",
-        "VA",
-        "MA",
+        # "VA", # Excluded for this analysis
+        # "MA", # Excluded for this analysis
     ]
     groupedShipments = mergeStates(states)
     mergedDF = perCapita(census, groupedShipments)
-    prePostFL, diffDiffFL = plotRegression("FL", ["MI", "NC", "OH"], 2010)
-    prePostWA, diffDiffWA = plotRegression("WA", ["AZ", "MO", "GA"], 2012)
+    prePostFL, diffDiffFL = plotRegression(
+        "FL", ["MI", "NC", "OH"], 2010
+    )  # FL is the test state, and MI, NC, OH are the control states
+    prePostWA, diffDiffWA = plotRegression(
+        "WA", ["AZ", "MO", "GA"], 2012
+    )  # WA is the test state, and AZ, MO, GA are the control states
     prePostFL.display()
     diffDiffFL.display()
     prePostWA.display()
