@@ -347,6 +347,13 @@ def get_reg_fit(data, yvar, xvar, alpha=0.05):
         .mark_line(opacity=treatment)
         .encode(
             x=xvar,
+            y=alt.Y(
+                yvar,
+                axis=alt.Axis(
+                    title="Opioids per Capita (morphine milligram equivalent)"
+                ),
+                scale=alt.Scale(zero=False),
+            ),
             color=alt.Color(
                 "State",
                 sort=alt.EncodingSortField(
@@ -364,7 +371,11 @@ def get_reg_fit(data, yvar, xvar, alpha=0.05):
         .mark_errorband(opacity=treatment / 2)
         .encode(
             x=xvar,
-            y=alt.Y("ci_low", title="Opioids per Capita"),
+            y=alt.Y(
+                "ci_low",
+                title="Opioids per Capita (morphine milligram equivalent)",
+                scale=alt.Scale(zero=False),
+            ),
             color=alt.Color(
                 "State",
                 sort=alt.EncodingSortField(
